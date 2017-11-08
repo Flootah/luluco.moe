@@ -1,0 +1,2 @@
+# luluco.moe
+lulucoooooooooo
