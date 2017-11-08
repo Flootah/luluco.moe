@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #FFCACC;
+}
+
+.dance {
+    position: relative;
+    top: 300px;
+    margin: auto;
+    width: 500px;
+    height: auto;
+    background: cover url("src/dance.gif") no-repeat;
+}
+
+.dance img {
+    vertical-align: top;
+    width: 100%;
+    visibility: hidden;
+}
+
+.info {
+    color: darkslategray;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    margin: 15px;
+}
+
+.info a {
+    text-decoration: underline;
+    color: inherit;
+}

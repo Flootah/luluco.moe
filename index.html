@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>luluco~</title>
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" type="text/css" href="luluco.css">
+        
+    </head>
+    <body>
+        <div class="dance"><img src="src/dance.gif"></div>
+        <audio loop id="yourgrill">
+            <source src="src/yourgrill.mp3" type="audio/mp3">
+        </audio>
+
+        <div class="info">
+            <p><a href="http://its-kandric.tumblr.com/">artwork by kandric</a></p>
+            <p><a href="https://soundcloud.com/futuregirlfriendmusic/your-grill">music by future girlfriend</a></p>
+            <p><a href="http://flootah.com/">website by flootah</a></p>
+        </div>
+
+        <script>
+            var audio = document.getElementById("yourgrill");
+            audio.volume = 0.25;
+            setTimeout(function() {
+                audio.play();
+            }, 2000);
+        </script>
+    </body>
+</html>
