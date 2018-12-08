@@ -10,11 +10,13 @@ body {
 
 .dance {
     position: relative;
-    top: 300px;
+    top: 30vh;
     margin: auto;
     width: 500px;
     height: auto;
-    background: cover url("src/dance.gif") no-repeat;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .dance img {
